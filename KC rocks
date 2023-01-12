@@ -1,0 +1,5 @@
+class bcolors:
+    PINK = '\033[95m'
+    ENDC = '\033[0m'
+
+print(bcolors.PINK + "Kristen rocks and is super cool" + bcolors.ENDC)
